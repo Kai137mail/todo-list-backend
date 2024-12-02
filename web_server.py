@@ -7,7 +7,7 @@ FOLDER = '/users/'
 
 @app.route("/")
 def hello_world():
-    return "Hello, World!"
+    return "My first project!"
 
 @app.route('/api/entries/')
 def get_entries():
