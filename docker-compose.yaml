@@ -2,7 +2,7 @@ version: "2.0"
 services:
   backend:
     build:
-      context: grocery-web-server
+      context: todo-web-server
     restart: always
     ports:
       - 8000:8000
