@@ -2,7 +2,7 @@ version: "2.0"
 services:
   backend:
     build:
-      context: todo-web-server
+      context: todo-list-backend
     restart: always
     ports:
       - 8000:8000
