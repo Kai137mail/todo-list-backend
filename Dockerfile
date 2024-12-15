@@ -1,4 +1,4 @@
-FROM python:3.13-slim as todolist
+FROM python:3.9-slim as todolist
 
 COPY requirements.txt /tmp/
 RUN pip install -r /tmp/requirements.txt
